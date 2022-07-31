@@ -1,0 +1,51 @@
+{
+  "name": "webpack-template",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "build": "cross-env NODE_ENV=production npx webpack --config webpack.config.js",
+    "serve": "cross-env NODE_ENV=development webpack serve --open"
+  },
+  "browserslist": [
+    "> 0.5%",
+    "last 2 versions",
+    "Firefox ESR",
+    "ie > 10",
+    "iOS > 9",
+    "not dead"
+  ],
+  "keywords": [],
+  "author": "Igor Romanenko",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "latest",
+    "@babel/preset-env": "latest",
+    "autoprefixer": "latest",
+    "babel-loader": "latest",
+    "cross-env": "latest",
+    "css-loader": "latest",
+    "cssnano": "latest",
+    "eslint": "latest",
+    "eslint-webpack-plugin": "latest",
+    "html-loader": "latest",
+    "html-webpack-plugin": "latest",
+    "html-webpack-pug-plugin": "latest",
+    "mini-css-extract-plugin": "latest",
+    "postcss": "latest",
+    "postcss-loader": "latest",
+    "pug-html-loader": "latest",
+    "sass": "latest",
+    "sass-loader": "latest",
+    "style-loader": "latest",
+    "webpack": "latest",
+    "webpack-cli": "latest",
+    "webpack-dev-server": "latest"
+  },
+  "dependencies": {
+    "bootstrap": "^5.2.0",
+    "ramda": "latest",
+    "ramda-fantasy": "latest",
+    "swiper": "^8.3.2"
+  }
+}
